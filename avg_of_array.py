@@ -9,31 +9,18 @@
 
 
 # 
-# def avg_arr(len_arr):
-#     arr=[]
-#     for i in range(len_arr):
-#         element=int(input("Enter a array element : "))
-#         arr.append(element)
-#     avg = sum(arr)/len(arr)
-#     print(f"The avrage of array element is : {avg}")
-
-
-
-# len_arr = int(input("Enter the length of array: "))
-
-# avg_arr(len_arr)
-
-def create_arr(len_arr):
+def avg_arr(len_arr):
     arr=[]
     for i in range(len_arr):
         element=int(input("Enter a array element : "))
         arr.append(element)
-    
-def avg_arr(arr):
-    for i in range(len_arr):
-        avg = sum(arr)/len(arr)
+    avg = sum(arr)/len(arr)
     print(f"The avrage of array element is : {avg}")
 
-len_arr = int(input("Enter the len of array : "))
-arr = create_arr(len_arr)
-avg_arr(arr)
+
+
+len_arr = int(input("Enter the length of array: "))
+
+avg_arr(len_arr)
+
+

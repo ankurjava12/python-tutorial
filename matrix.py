@@ -29,11 +29,11 @@
 def create_matrix(m,n):
     mat = []
     for i in range(m):
-        row =[]
+        rows =[]
         for j in range(n):
-            input_num = int(input(f"enter the value of mat[{i}][{j}] : "))
-            row.append(input_num)
-        mat.append(row)
+            input_num = int(input(f"Enter the value of mat[{i}][{j}] : "))
+            rows.append(input_num)
+        mat.append(rows)
     return mat
 
 def show(mat):
